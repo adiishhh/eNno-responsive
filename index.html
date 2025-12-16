@@ -1,0 +1,502 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eNno</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70" tabindex="0">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container p-lg-2">
+              <a class="navbar-brand fw-bold text-muted fs-2" href="index.html">eNno</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse gap-3" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2 text-muted fw-semibold">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#location">Location</a></li>
+                      <li><a class="dropdown-item" href="#links">Links</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                <a href="#about" class="btn btn-success rounded-pill">Get Started</a>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home-section py-5">
+            <div class="container">
+                <div class="row gy-4 h-100 align-items-center">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-secondary">
+                        <h1 class="h1 display-5 fw-bold">Elegent and creative solutions</h1>
+                        <p>We are team of talented designers making websites with Bootstrap</p>
+                        <div class="d-flex">
+                            <a href="#about" class="btn btn-success rounded-pill">Get Started</a>
+                            <a href="#" class="btn d-flex align-items-center gap-1 ms-3 video-btn">
+                                <i class="fa-regular fa-circle-play fs-2" style="color: #198754;"></i>
+                                <span>Watch Video</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <img src="images/hero-img.png" alt="home-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lorem-section py-5">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="position-relative bg-light py-5 px-4 Lorem-div">
+                            <div class="icon">
+                                <i class="fa-solid fa-wave-square" style="color: #198754; font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="h4 my-3">Lorem Ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, nobis!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="position-relative bg-light py-5 px-4 Lorem-div">
+                            <div class="icon">
+                                <i class="fa-solid fa-circle-nodes" style="color: #198754; font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="h4 my-3">Sed Ut Perspici</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, nobis!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <div class="position-relative bg-light py-5 px-4 Lorem-div">
+                            <div class="icon">
+                                <i class="fa-regular fa-calendar-days" style="color: #198754; font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="h4 my-3">Magni Dolores</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, nobis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section py-5">
+            <div class="container py-5 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="h2 text-secondary fw-semibold mb-2">ABOUT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nobis accusantium.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 position-relative align-self-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/about-img.png" alt="about-img" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="h3 text-secondary fw-semibold">Consectetur adipisicing elit At dignissimos expedita consequatur aliquid autem laudantium.</h3>
+                        <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio esse assumenda commodi ex. Minima deleniti omnis voluptates cupiditate.</p>
+                        <ul class="list-group-flush row gy-2 p-0 mx-3">
+                            <li class="list-group-item"><i class="fa-solid fa-check-double me-1" style="color: #198754;"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                            <li class="list-group-item"><i class="fa-solid fa-check-double me-1" style="color: #198754;"></i><span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                            <li class="list-group-item"><i class="fa-solid fa-check-double me-1" style="color: #198754;"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                        </ul>
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section py-5">
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item text-center w-100 h-100">
+                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter text-success fw-bold display-5">232</span>
+                    <p>Clients</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item text-center w-100 h-100">
+                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter text-success fw-bold display-5">521</span>
+                    <p>Projects</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item text-center w-100 h-100">
+                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter text-success fw-bold display-5">1453</span>
+                    <p>Hours Of Support</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="stats-item text-center w-100 h-100">
+                    <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter text-success fw-bold display-5">32</span>
+                    <p>Workers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+      
+        <section id="services" class="services-section py-5 bg-light">
+            <div class="container py-5 text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="h2 text-secondary fw-semibold mb-3">SERVICES</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nobis accusantium.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item bg-white py-5 px-3 text-center shadow-sm h-100 rounded">
+                      <div class="icon bg-success rounded p-3 d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                        <i class="fa-solid fa-wave-square fa-xl text-white"></i>
+                      </div>
+                      <h4 class="h4 fw-semibold my-2 text-muted">Nesciunt Mete</h3>
+                      <p class="text-muted">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item bg-white py-5 px-3 text-center shadow-sm h-100 rounded">
+                      <div class="icon bg-success rounded p-3 d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                        <i class="fa-solid fa-tower-broadcast fa-xl text-white"></i>
+                      </div>
+                      <h4 class="h4 fw-semibold my-2 text-muted">Eosle Commodi</h3>
+                      <p class="text-muted">Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item bg-white py-5 px-3 text-center shadow-sm h-100 rounded">
+                      <div class="icon bg-success rounded p-3 d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                        <i class="fa-solid fa-chalkboard fa-xl text-white"></i>
+                      </div>
+                      <h4 class="h4 fw-semibold my-2 text-muted">Ledo Markt</h3>
+                      <p class="text-muted">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item bg-white py-5 px-3 text-center shadow-sm h-100 rounded">
+                      <div class="icon bg-success rounded p-3 d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                        <i class="fa-solid fa-circle-nodes fa-xl text-white"></i>
+                      </div>
+                      <h4 class="h4 fw-semibold my-2 text-muted">Asperiores Commodit</h3>
+                      <p class="text-muted">Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item bg-white py-5 px-3 text-center shadow-sm h-100 rounded">
+                      <div class="icon bg-success rounded p-3 d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                        <i class="fa-regular fa-calendar-days fa-xl text-white"></i>
+                      </div>
+                      <h4 class="h4 fw-semibold my-2 text-muted">Velit Doloremque</h3>
+                      <p class="text-muted">Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item bg-white py-5 px-3 text-center shadow-sm h-100 rounded">
+                      <div class="icon bg-success rounded p-3 d-inline-flex justify-content-center align-items-center mb-3" style="width: 60px; height: 60px;">
+                        <i class="fa-regular fa-message fa-xl text-white"></i>
+                      </div>
+                      <h4 class="h4 fw-semibold my-2 text-muted">Dolori Architecto</h3>
+                      <p class="text-muted">Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section py-5 my-3">
+            <div class="container text-center p-4 my-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="h2 text-secondary fw-semibold mb-3">TESTIMONIALS</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nobis accusantium.</p>
+            </div>
+          
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="testimonial-item mx-auto p-4 shadow-sm rounded bg-white" style="max-width: 600px;">
+                    <p class="mb-3">
+                      <i class="bi bi-quote quote-icon-left text-success"></i>
+                      <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.</span>
+                      <i class="bi bi-quote quote-icon-right text-success"></i>
+                    </p>
+                    <img src="images/testimonials-1.jpg" class="testimonial-img rounded-circle mb-3" alt="Saul Goodman" style="width:80px;height:80px;object-fit:cover;">
+                    <h3 class="fw-bold">Saul Goodman</h3>
+                    <h4 class="text-muted">CEO & Founder</h4>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="testimonial-item mx-auto p-4 shadow-sm rounded bg-white" style="max-width: 600px;">
+                    <p class="mb-3">
+                      <i class="bi bi-quote quote-icon-left text-success"></i>
+                      <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.</span>
+                      <i class="bi bi-quote quote-icon-right text-success"></i>
+                    </p>
+                    <img src="images/testimonials-4.jpg" class="testimonial-img rounded-circle mb-3" alt="Matt Brandon" style="width:80px;height:80px;object-fit:cover;">
+                    <h3 class="fw-bold">Matt Brandon</h3>
+                    <h4 class="text-muted">Freelancer</h4>
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="testimonial-item mx-auto p-4 shadow-sm rounded bg-white" style="max-width: 600px;">
+                    <p class="mb-3">
+                      <i class="bi bi-quote quote-icon-left text-success"></i>
+                      <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                      <i class="bi bi-quote quote-icon-right text-success"></i>
+                    </p>
+                    <img src="images/testimonials-2.jpg" class="testimonial-img rounded-circle mb-3" alt="Sara Wilsson" style="width:80px;height:80px;object-fit:cover;">
+                    <h3 class="fw-bold">Sara Wilsson</h3>
+                    <h4 class="text-muted">Designer</h4>
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="testimonial-item mx-auto p-4 shadow-sm rounded bg-white" style="max-width: 600px;">
+                    <p class="mb-3">
+                      <i class="bi bi-quote quote-icon-left text-success"></i>
+                      <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                      <i class="bi bi-quote quote-icon-right text-success"></i>
+                    </p>
+                    <img src="images/testimonials-3.jpg" class="testimonial-img rounded-circle mb-3" alt="Jena Karlis" style="width:80px;height:80px;object-fit:cover;">
+                    <h3 class="fw-bold">Jena Karlis</h3>
+                    <h4 class="text-muted">Store Owner</h4>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+            </div>
+        </section>
+
+        <section class="call-to-section bg-success py-5">
+            <div class="container">
+              <div class="row justify-content-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-10">
+                  <div class="text-center text-white">
+                    <h3>Call To Action</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a class="btn border border-1 border-white rounded-pill text-white px-5 py-2" href="#home">Call To Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+
+      <section id="team" class="team-section py-5">
+        <div class="container text-center p-4 my-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <h2 class="h2 text-secondary fw-semibold mb-3">TEAM</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nobis accusantium.</p>
+        </div>
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div id="member1" class="card">
+                <img src="images/team-1.jpg" class="card-img-top" alt="Walter White">
+                <div class="card-body">
+                  <h5 class="card-title">Walter White</h5>
+                  <p class="card-text">Chief executive officer</p>
+                  <a href="#" class="btn btn-success contact-btn">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">    
+              <div id="member2" class="card">
+                <img src="images/team-2.jpg" class="card-img-top" alt="Sarah Johnson">
+                <div class="card-body">
+                  <h5 class="card-title">Sarah Johnson</h5>
+                  <p class="card-text">CTO</p>
+                  <a href="#" class="btn btn-success contact-btn">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div id="member3" class="card">
+                <img src="images/team-3.jpg" class="card-img-top" alt="William Anderson">
+                <div class="card-body">
+                  <h5 class="card-title">William Anderson</h5>
+                  <p class="card-text">Product manager</p>
+                  <a href="#" class="btn btn-success contact-btn">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section py-5 bg-light">
+          <div class="container text-center p-4 my-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="h2 text-secondary fw-semibold mb-3">CONTACT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nobis accusantium.</p>
+          </div>
+        
+          <div class="container">
+            <div class="row gy-4">
+              <div  id="location" class="col-lg-5 d-flex flex-column justify-content-center shadow bg-white p-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="mb-4">
+                  <h5 class="fw-bold text-success"><i class="fa-solid fa-location-dot me-2 text-success"></i>Address</h5>
+                  <p class="text-muted">A108 Adam Street, New York, NY 535022</p>
+                </div>
+                <div class="mb-4">
+                  <h5 class="fw-bold text-success"><i class="fa-solid fa-phone me-2 text-success"></i>Call Us</h5>
+                  <p class="text-muted">+1 5589 55488 55</p>
+                </div>
+                <div class="mb-4">
+                  <h5 class="fw-bold text-success"><i class="fa-solid fa-envelope me-2 text-success"></i>Email Us</h5>
+                  <p class="text-muted">info@example.com</p>
+                </div>
+                <div>
+                  <iframe src="https://www.google.com/maps?q=Downtown+Conference+Center,+New+York&output=embed" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+
+              <div class="col-lg-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <form class="p-5 bg-white shadow m-0">
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="mt-3">
+                    <input type="text" class="form-control" placeholder="Subject" required>
+                  </div>
+                  <div class="mt-3">
+                    <textarea class="form-control" rows="15" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success rounded-pill px-4">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer id="links" class="p-md-5 px-0 py-5">
+        <div class="container">
+          <div class="row gy-4">
+          
+            <div class="col-lg-3 col-md-6">
+              <h4 class="fw-bold text-secondary">eNno</h4>
+              <p class="small">
+                A108 Adam Street<br>
+                New York, NY 535022<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com
+              </p>
+            </div>
+          
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-secondary">Useful Links</h5>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">About us</a></li>
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Services</a></li>
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Terms of service</a></li>
+              </ul>
+            </div>
+          
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-secondary">Our Services</h5>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Web Design</a></li>
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Web Development</a></li>
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Product Management</a></li>
+                <li><i class="fa-solid fa-chevron-right me-2 text-success"></i><a href="#" class="text-secondary text-decoration-none">Marketing</a></li>
+              </ul>
+            </div>
+          
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-secondary">Follow Us</h5>
+              <p class="small">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <div class="d-flex gap-3">
+                <a href="#" class="text-secondary fs-5"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="text-secondary fs-5"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="text-secondary fs-5"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="text-secondary fs-5"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          
+          </div>
+        
+          <div class="text-center mt-5 pt-4 border-top border-light">
+            <p class="mb-1 small">© Copyright <strong>eNno</strong>. All Rights Reserved</p>
+            <p class="small">Designed by <a href="#" class="text-success text-decoration-none">BootstrapMade</a> Distributed by <a href="#" class="text-success text-decoration-none">ThemeWagon</a></p>
+          </div>
+        </div>
+    </footer>
+
+
+    <div id="cardPopup" class="popup-overlay d-none">
+      <div class="popup-card bg-white p-4 rounded shadow-lg text-center">
+        <img id="popup-img" src="" alt="member" class="mb-3 rounded-circle" style="width:120px;height:120px;object-fit:cover;">
+        <h3 id="popup-name"></h3>
+        <h5 id="popup-role" class="text-muted"></h5>
+        <p id="popup-contact" class="mt-3"></p>
+        <button class="btn btn-secondary mt-3" onclick="closePopup()">Close</button>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
+
+</body>
+</html>
